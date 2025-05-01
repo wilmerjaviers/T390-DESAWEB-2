@@ -2,7 +2,13 @@ import { Persona } from '../Modelos/Persona'
 
 export default function Persona3Component({ nombre, ocupacion, pais }: Persona) {
   return (
- <div>
+ <div style={{
+  backgroundColor: '#f6f8fa', // Color de fondo para la tarjeta
+  padding: '16px',           // Espacio interno
+  borderRadius: '6px',       // Bordes redondeados
+  boxShadow: '0 1px 3px rgba(0,0,0,0.12)', // Sombra sutil
+  marginBottom: '16px'       // Espacio entre tarjetas
+}}>
       <h3 style={{ 
         color: '#0366d6', 
         marginTop: '0',
