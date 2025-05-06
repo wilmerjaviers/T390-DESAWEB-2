@@ -39,7 +39,7 @@ export default function ContadorPalabras() {
    >
    </textarea>
 
-   <h2 style={{ color: textColor }}>La cantidad de letras es: {contadorLetras}
+   <h2 style={{ color: textColor }}>La cantidad de letras ingresadas es: {contadorLetras}
    </h2>
 </div>
 )
