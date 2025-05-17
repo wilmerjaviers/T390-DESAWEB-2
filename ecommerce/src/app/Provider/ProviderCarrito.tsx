@@ -62,7 +62,7 @@ export default function ProviderCarrito({children}:PlantillaReact) {
 
 function eliminarDelCarrito(idProducto: number) {
   
-//correccion al error de eliminar todos los productos 
+
   const indiceAEliminar = productoCarrito.findIndex(
     producto => producto.idProducto === idProducto
   );

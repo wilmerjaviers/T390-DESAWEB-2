@@ -11,6 +11,6 @@ export const contextCarrito = createContext({
     productoCarrito: [] as Producto[],
     setProductoCarrito: (productos: Producto[])=>{},
     agregarCarrito: (producto:Producto) =>{},
-    agregarCarritoPorId: (idProducto: number) => {}, //nueva funcion
-    eliminarDelCarrito: (idProducto: number) => {} // nueva funcion
+    agregarCarritoPorId: (idProducto: number) => {}, 
+    eliminarDelCarrito: (idProducto: number) => {} 
 })
